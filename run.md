@@ -27,7 +27,6 @@ JWT_SECRET=dev-secret-change-in-prod-7f3a9c2e8b1d4a6f
 JWT_EXPIRES_IN=3600s
 NODE_ENV=development
 ```
-Edit `JWT_SECRET` to any non-empty string. All other values match the docker-compose defaults and can stay as-is unless your Postgres port conflicts.
 
 ## 3. Start the database
 ```bash

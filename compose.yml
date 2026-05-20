@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgres:16
+    restart: always
+    environment:
+      POSTGRES_USER: issueflow
+      POSTGRES_PASSWORD: issueflow
+      POSTGRES_DB: issueflow
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - target: 5432
+        published: 5432
+        protocol: tcp
+
+volumes:
+  pgdata:

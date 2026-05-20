@@ -3,8 +3,9 @@
 Implementation of the IssueFlow ticket management backend, per the assignment spec. NestJS 10 / TypeScript / TypeORM / PostgreSQL.
 
 - **Setup & run:** [`run.md`](run.md)
-- **Architectural decisions (D1–D15, with context, rationale, trade-offs):** [`DECISIONS.md`](DECISIONS.md)
+- **Architectural decisions:** [`DECISIONS.md`](DECISIONS.md)
 - **AI workflow & prompts:** [`prompts.md`](prompts.md)
+- **Project Context loaded by Claude Code** [`CLAUDE.md`](CLAUDE.md)
 - **Tests:** 141 specs across 14 suites — `npm test`
 
 All spec sections (2.1 through 3.8) are implemented. The full API contract from the assignment skeleton is preserved below unchanged.

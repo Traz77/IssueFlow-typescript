@@ -16,7 +16,7 @@ npm install
 ```bash
 cp .env.example .env
 ```
-Then fill in the placeholder values in `.env` to match the docker-compose database:
+The defaults already match the docker-compose database — no edits needed for local development. Your `.env` should look like:
 ```
 DB_HOST=localhost
 DB_PORT=5432

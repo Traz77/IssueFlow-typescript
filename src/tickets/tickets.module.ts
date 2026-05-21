@@ -23,7 +23,7 @@ import { AuditLogModule } from '../audit-log/audit-log.module';
     UsersModule,
     AuditLogModule,
   ],
-  controllers: [TicketsAdminController, TicketsController, TicketDependenciesController, TicketsImportExportController, WorkloadController],
+  controllers: [TicketsAdminController, TicketsImportExportController, TicketsController, TicketDependenciesController, WorkloadController],
   providers: [TicketsService, TicketDependenciesService, TicketsImportExportService, WorkloadService],
   exports: [TicketsService],
 })
